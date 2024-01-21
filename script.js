@@ -33,15 +33,15 @@
 //     }
 //     return a1;
 // }
-var age = 15;
+// var age = 15;
 
-if (age < 18) {
-    alert("You are less than 18 years old.");
-} else {
-    alert("You are 18 years old or older.");
-}
+// if (age < 18) {
+//     alert("You are less than 18 years old.");
+// } else {
+//     alert("You are 18 years old or older.");
+// }
 
 
 // var a=parseInt(prompt("ENter first number"));
 // var b=parseInt(prompt("ENter second number"));
-document.write(getSum(20));
+// document.write(getSum(20));

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show hide example</title>
+    <script src="/js/showhide.js"></script>
+    <style>
+        #showhide{
+            width: 180px;
+            height: 160px;
+            background-color: red;
+            display: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover" onmouseover="show" onmouseout="remove"></div>
+    <div id="showhide">
+    </div>
+    <div class="btn">
+        <button id="show" onmouseover="show()">show-hide</button>
+    </div>
+</body>
+</html>
